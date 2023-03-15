@@ -11,13 +11,15 @@ class Main {
           System.out.println("Podaj wymiary prostokąta: ");
           double a = scanner.nextDouble();
           double b = scanner.nextDouble();
-          System.out.println(a*b);
-
+          System.out.println("Wynik: " + a*b);
+          break;
         case 2:
           System.out.println("Podaj długości przyprostokątnych: ");
           double x = scanner.nextDouble();
           double y = scanner.nextDouble();
-          System.out.println(0.5*x*y);
+          System.out.println("Wynik: " + 0.5*x*y);
+          break;
+        default: break;
       }
   }
 }
